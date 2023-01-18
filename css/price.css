@@ -1,0 +1,59 @@
+.container_price{
+    padding-top: 150px;
+}
+
+.price_ul{
+    list-style: none;
+    width: 420px;
+ 
+}
+
+.price_list{
+    padding-bottom: 31px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.price_list:before{
+    content: '';
+    position: absolute;
+    background: #018ABE;
+    border-radius: 0px 50px;
+    width: 18px;
+    height: 9px;
+    margin-top: 8px;
+}
+
+.price{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+
+.price_url{
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #FFFFFF;
+    margin-left: 40px;
+}
+
+.cent_price{
+    font-family: 'El Messiri';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+color: #FFFFFF;
+}
+
+.titel_photo{
+    font-family: 'El Messiri';
+font-style: normal;
+font-weight: 700;
+font-size: 21px;
+text-align: center;
+color: #FFFFFF;
+}
