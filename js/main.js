@@ -8,7 +8,6 @@ $('.slaider').slick({
     variableWidth: true,
     centerMode: true,
     centerPadding: '50px',
-    slidesToShow: 1,
     focusOnSelect:false,
 })
 
