@@ -1,6 +1,6 @@
 .container_about{
     padding-top: 150px;
-    width: 1076px;
+  
 }
 
 .about_text{
@@ -10,7 +10,7 @@
 
 .about_wrap{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     padding-top: 100px;   
     
