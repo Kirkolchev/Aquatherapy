@@ -1,12 +1,11 @@
-.header{
-	padding-top: 30px;
-}
+
 
 .contents{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+	padding: 30px 0px;
 }
 
 a {
@@ -52,3 +51,4 @@ transition: all 1.0s ease;
 	background: #def12b;
 	color: black;
 }
+

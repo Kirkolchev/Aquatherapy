@@ -1,0 +1,35 @@
+header{
+    border-bottom: 1px solid rgb(194, 193, 193);
+    width: 100%;
+}
+.Rectangle5{
+    background: #018ABE;
+    border-radius: 0px 50px;
+    width: 28px;
+    height: 14px;
+    margin-right: 45px;
+}
+.Rectangle3{
+    background: #018ABE;
+   
+    border-radius: 0px 50px;
+    width: 28px;
+    height: 14px;
+    margin-left: 45px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.title__wrap{
+    display: flex;
+    align-items: center;
+    height: 15px;
+    justify-content: center;
+    padding-top: 60px;
+}
+.news__title{
+    font-family: 'El Messiri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+}
