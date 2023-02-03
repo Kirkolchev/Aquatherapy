@@ -1,0 +1,44 @@
+/** @format */
+
+.text__wrap {
+  max-width: 526px;
+  max-height: 513px;
+}
+.data__sessions {
+  padding: 6px 12px 5px;
+  background-color: #018abe;
+
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 135%;
+
+  color: #ffffff;
+  border-radius: 5px;
+}
+.wrap__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title__session {
+  font-family: "El Messiri";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+  color: #ffffff;
+  padding: 43px 0px;
+  margin: 0px;
+}
+.text__session {
+  font-family: "ProximaNova-Light";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 140%;
+  color: #ffffff;
+  margin-top: 0px;
+}
