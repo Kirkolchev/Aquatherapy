@@ -1,54 +1,53 @@
+/** @format */
 
-
-.contents{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-	padding: 30px 0px;
+.contents {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 0px;
 }
 
 a {
-	text-decoration: none;
-	background-image: linear-gradient(currentColor, currentColor);
-	background-position: 50% 100%;
-	background-repeat: no-repeat;
-	background-size: 0% 2px;
-	transition:0.3s;
-  }
-  .menu a {
-    color: white;
+  text-decoration: none;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: 0.3s;
+}
+.menu a {
+  color: white;
 }
 
-.menu a:hover{
+.menu a:hover {
   background-size: 100% 2px;
 }
 
 .menu li {
-    display: inline-block;
-	margin-right: 50px;
+  display: inline-block;
+  margin-right: 50px;
 }
 
-.menu a{
-	font-size: 14px;
-	color: rgb(241, 241, 241);
-	text-decoration: none;
-	font-family: 'ProximaNova-Regular';
+.menu a {
+  font-size: 14px;
+  color: rgb(241, 241, 241);
+  text-decoration: none;
+  font-family: "ProximaNova-Regular";
 }
 
-.btn_header{
-	font-family: 'ProximaNova-Regular';
-color: white;
-padding: 9px 15px;
-background-color: #018ABE;
-text-decoration: none;
-font-size: 13px;
-border-radius: 5px;
-transition: all 1.0s ease;
+.btn_header {
+  font-family: "ProximaNova-Regular";
+  color: white;
+  padding: 9px 15px;
+  background-color: #018abe;
+  text-decoration: none;
+  font-size: 13px;
+  border-radius: 5px;
+  transition: all 1s ease;
 }
 
-.btn_header:hover{
-	background: #def12b;
-	color: black;
+.btn_header:hover {
+  background: #def12b;
+  color: black;
 }
-
