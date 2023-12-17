@@ -1,5 +1,5 @@
-.acva_container{
-    background: url(/img/First.jpg) no-repeat;
+.acva_container {
+    background: url(../img/First.jpg) no-repeat;
     height: 600px;
     display: flex;
     flex-direction: column;
@@ -9,23 +9,24 @@
 }
 
 
-.title_wrap{
+.title_wrap {
     display: flex;
     align-items: center;
     height: 15px;
     justify-content: center;
 }
 
-.Rectangle5{
+.Rectangle5 {
     background: #FFFFFF;
     border-radius: 0px 50px;
     width: 28px;
     height: 14px;
     margin-right: 66px;
 }
-.Rectangle3{
+
+.Rectangle3 {
     background: #FFFFFF;
-   
+
     border-radius: 0px 50px;
     width: 28px;
     height: 14px;
@@ -33,14 +34,15 @@
     transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
-.acva_title h1{
+.acva_title h1 {
     font-family: 'El Messiri';
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     color: #FFFFFF;
 }
-.titleh2 h2{
+
+.titleh2 h2 {
     font-family: 'El Messiri';
     font-weight: 700;
     font-size: 64px;

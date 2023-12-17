@@ -1,13 +1,14 @@
-.Rectangle1{
+.Rectangle1 {
     background: #018ABE;
     border-radius: 0px 50px;
     width: 28px;
     height: 14px;
     margin-right: 45px;
 }
-.Rectangle2{
+
+.Rectangle2 {
     background: #018ABE;
-   
+
     border-radius: 0px 50px;
     width: 28px;
     height: 14px;
@@ -15,7 +16,7 @@
     transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
-.container_sessions{
+.container_sessions {
     padding-top: 150px;
     display: flex;
     flex-direction: column;
@@ -23,7 +24,7 @@
     align-items: center;
 }
 
-.sessions_title h3{
+.sessions_title h3 {
     font-family: 'El Messiri';
     font-weight: 700;
     font-size: 42px;
@@ -31,41 +32,32 @@
 }
 
 
-.sessions_wrap{
+.sessions_wrap {
     display: flex;
     padding-top: 100px;
 
-    
+
 }
 
-.wrap{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-content: space-between;
- 
-}
+
 /* путь к крартинкам !!!!!!! */
 
 
-.sessions_choice_first{
-    padding-right: 24px;
-    background: url(/img/girlwoter.jpg) no-repeat;
+.sessions_choice_first {
+
+    background: url(../img/girlwoter.jpg) no-repeat;
+    column-count: 3;
 }
 
-.sessions_choice{
-    background: url(/img/unsplash_TnOyyEtrKd0.jpg) no-repeat;
+.sessions_choice {
+    background: url(../img/unsplash_TnOyyEtrKd0.jpg) no-repeat;
+    padding: 0px 0px 20px 0px;
 }
+
 /* путь к крартинкам !!!!!!! */
 
-.sessions_url_first{
-    
-width: 416px;
-height: 540px;
-display: block;
 
-}
-.sessions_url_first h4{
+.sessions_url_first h4 {
     margin: 0;
     padding: 456px 108px 50px 50px;
     font-family: 'El Messiri';
@@ -77,13 +69,11 @@ display: block;
 
 .sessions_url {
     width: 420px;
-    height: 258px;
-   display: block;
+
+    display: block;
 }
 
-
-
-.sessions_url h4{
+.sessions_url h4 {
     margin: 0;
     font-family: 'El Messiri';
     font-style: normal;
@@ -91,10 +81,11 @@ display: block;
     font-size: 24px;
     color: #FFFFFF;
 }
-.title_sessions_first{
+
+.title_sessions_first {
     padding: 160px 40px 30px 40px;
 }
 
-.title_sessions{
+.title_sessions {
     padding: 194px 40px 30px 40px;
 }
